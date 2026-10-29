@@ -1,0 +1,47 @@
+name: Build and Publish Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Build & Release Package
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Package Extension (if not pre-packaged)
+        run: |
+          mkdir -p release
+          # If a signed xpi already exists in release/, keep it. Otherwise package from source.
+          if [ ! -f release/idownergo-firefox.xpi ]; then
+            echo "Packaging extension from idownergo/download-extension..."
+            cd idownergo/download-extension
+            zip -r ../../release/idownergo-firefox.xpi *
+            cd ../..
+          else
+            echo "Using existing release/idownergo-firefox.xpi"
+          fi
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            release/idownergo-firefox.xpi
+            release/install_host.bat
+            release/native_host_manifest.json
+            release/register_firefox_host.reg
+            release/updates.json
+          generate_release_notes: true
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
