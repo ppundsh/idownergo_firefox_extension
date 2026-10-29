@@ -1,0 +1,26 @@
+{
+	"appName": {
+		"message": "iDownerGoダウンローダー拡張機能",
+		"description": "The product name"
+	},
+	"appDescription": {
+		"message": "YouTubeの動画・音声・サムネイルをワンクリックでダウンロード。リンクをコピーする必要はありません。",
+		"description": "Extension description"
+	},
+	"installDialogTitle": {
+		"message": "デスクトップアプリがインストールされていません",
+		"description": "Install dialog: heading shown when desktop app is not found"
+	},
+	"installDialogDesc": {
+		"message": "ダウンロードを開始するには、デスクトップアプリをインストールしてください。",
+		"description": "Install dialog: body text prompting user to install desktop app"
+	},
+	"installDialogDownloadBtn": {
+		"message": "インストーラーをダウンロード",
+		"description": "Install dialog: download button label"
+	},
+	"installDialogCloseBtn": {
+		"message": "キャンセル",
+		"description": "Install dialog: close button label"
+	}
+}

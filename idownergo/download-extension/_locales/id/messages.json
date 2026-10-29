@@ -1,0 +1,26 @@
+{
+	"appName": {
+		"message": "Ekstensi Pengunduh Video iDownerGo",
+		"description": "The product name"
+	},
+	"appDescription": {
+		"message": "1-klik untuk mengunduh video, audio, dan gambar mini YouTube, tidak perlu menyalin tautan.",
+		"description": "Extension description"
+	},
+	"installDialogTitle": {
+		"message": "Aplikasi Desktop Belum Terpasang",
+		"description": "Install dialog: heading shown when desktop app is not found"
+	},
+	"installDialogDesc": {
+		"message": "Silakan pasang aplikasi desktop untuk mulai mengunduh.",
+		"description": "Install dialog: body text prompting user to install desktop app"
+	},
+	"installDialogDownloadBtn": {
+		"message": "Unduh Penginstal",
+		"description": "Install dialog: download button label"
+	},
+	"installDialogCloseBtn": {
+		"message": "Batal",
+		"description": "Install dialog: close button label"
+	}
+}

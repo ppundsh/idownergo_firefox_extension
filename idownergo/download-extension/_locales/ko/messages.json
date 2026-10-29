@@ -1,0 +1,26 @@
+{
+	"appName": {
+		"message": "iDownerGo Video Downloader 확장 프로그램",
+		"description": "The product name"
+	},
+	"appDescription": {
+		"message": "링크를 복사할 필요 없이 클릭 한 번으로 YouTube 동영상, 오디오, 섬네일을 다운로드하세요.",
+		"description": "Extension description"
+	},
+	"installDialogTitle": {
+		"message": "데스크톱 앱이 설치되지 않음",
+		"description": "Install dialog: heading shown when desktop app is not found"
+	},
+	"installDialogDesc": {
+		"message": "다운로드를 시작하려면 데스크톱 앱을 설치하세요.",
+		"description": "Install dialog: body text prompting user to install desktop app"
+	},
+	"installDialogDownloadBtn": {
+		"message": "설치 프로그램 다운로드",
+		"description": "Install dialog: download button label"
+	},
+	"installDialogCloseBtn": {
+		"message": "취소",
+		"description": "Install dialog: close button label"
+	}
+}

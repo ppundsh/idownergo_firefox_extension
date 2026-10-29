@@ -1,0 +1,26 @@
+{
+	"appName": {
+		"message": "Estensione per il download di video iDownerGo",
+		"description": "The product name"
+	},
+	"appDescription": {
+		"message": "Scarica con 1 clic video, audio e miniature di YouTube, senza bisogno di copiare i link.",
+		"description": "Extension description"
+	},
+	"installDialogTitle": {
+		"message": "Applicazione desktop non installata",
+		"description": "Install dialog: heading shown when desktop app is not found"
+	},
+	"installDialogDesc": {
+		"message": "Installa l'applicazione desktop per avviare il download.",
+		"description": "Install dialog: body text prompting user to install desktop app"
+	},
+	"installDialogDownloadBtn": {
+		"message": "Scarica il programma di installazione",
+		"description": "Install dialog: download button label"
+	},
+	"installDialogCloseBtn": {
+		"message": "Annulla",
+		"description": "Install dialog: close button label"
+	}
+}

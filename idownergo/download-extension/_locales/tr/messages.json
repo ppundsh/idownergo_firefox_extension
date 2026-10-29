@@ -1,0 +1,26 @@
+{
+	"appName": {
+		"message": "iDownerGo Video İndirici Uzantısı",
+		"description": "The product name"
+	},
+	"appDescription": {
+		"message": "YouTube videolarını, seslerini ve küçük resimlerini tek tıkla indirin, bağlantıları kopyalamaya gerek kalmaz.",
+		"description": "Extension description"
+	},
+	"installDialogTitle": {
+		"message": "Masaüstü Uygulaması Yüklü Değil",
+		"description": "Install dialog: heading shown when desktop app is not found"
+	},
+	"installDialogDesc": {
+		"message": "İndirmeyi başlatmak için lütfen masaüstü uygulamasını yükleyin.",
+		"description": "Install dialog: body text prompting user to install desktop app"
+	},
+	"installDialogDownloadBtn": {
+		"message": "Yükleyiciyi İndir",
+		"description": "Install dialog: download button label"
+	},
+	"installDialogCloseBtn": {
+		"message": "İptal",
+		"description": "Install dialog: close button label"
+	}
+}

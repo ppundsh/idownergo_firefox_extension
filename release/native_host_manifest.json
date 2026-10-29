@@ -1,0 +1,9 @@
+{
+    "name": "com.idownergo.bridge",
+    "description": "iDownerGo Browser Bridge - Native Messaging Host (Unofficial Firefox Build)",
+    "path": "C:\\Users\\admin\\AppData\\Local\\MediaBridge\\idownergo\\service\\iDownerGoDownloadService.exe",
+    "type": "stdio",
+    "allowed_extensions": [
+        "idownergo-unofficial@community-bridge"
+    ]
+}

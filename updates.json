@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "idownergo-unofficial@community-bridge": {
+      "updates": [
+        {
+          "version": "1.0.0",
+          "update_link": "https://github.com/ppundsh/idownergo_firefox_extension/releases/download/v1.0.0/idownergo-firefox.xpi"
+        }
+      ]
+    }
+  }
+}

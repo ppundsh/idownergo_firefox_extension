@@ -1,0 +1,26 @@
+{
+	"appName": {
+		"message": "Расширение iDownerGo Video Downloader",
+		"description": "The product name"
+	},
+	"appDescription": {
+		"message": "Скачивание видео, аудио и значков YouTube в 1 клик, копировать ссылки не нужно.",
+		"description": "Extension description"
+	},
+	"installDialogTitle": {
+		"message": "Настольное приложение не установлено",
+		"description": "Install dialog: heading shown when desktop app is not found"
+	},
+	"installDialogDesc": {
+		"message": "Пожалуйста, установите настольное приложение, чтобы начать скачивание.",
+		"description": "Install dialog: body text prompting user to install desktop app"
+	},
+	"installDialogDownloadBtn": {
+		"message": "Скачать установщик",
+		"description": "Install dialog: download button label"
+	},
+	"installDialogCloseBtn": {
+		"message": "Отмена",
+		"description": "Install dialog: close button label"
+	}
+}

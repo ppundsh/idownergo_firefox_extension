@@ -1,0 +1,11 @@
+# Proprietary desktop binaries
+idownergo/service/
+*.exe
+*.dll
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/

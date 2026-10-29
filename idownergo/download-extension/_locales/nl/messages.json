@@ -1,0 +1,26 @@
+{
+	"appName": {
+		"message": "iDownerGo Video Downloader-extensie",
+		"description": "The product name"
+	},
+	"appDescription": {
+		"message": "Download in 1 klik YouTube-video's, audio en miniaturen, u hoeft geen links te kopiëren.",
+		"description": "Extension description"
+	},
+	"installDialogTitle": {
+		"message": "Desktop-app niet geïnstalleerd",
+		"description": "Install dialog: heading shown when desktop app is not found"
+	},
+	"installDialogDesc": {
+		"message": "Installeer de desktop-app om het downloaden te starten.",
+		"description": "Install dialog: body text prompting user to install desktop app"
+	},
+	"installDialogDownloadBtn": {
+		"message": "Installatieprogramma downloaden",
+		"description": "Install dialog: download button label"
+	},
+	"installDialogCloseBtn": {
+		"message": "Annuleren",
+		"description": "Install dialog: close button label"
+	}
+}

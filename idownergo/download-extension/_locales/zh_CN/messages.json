@@ -1,0 +1,26 @@
+{
+	"appName": {
+		"message": "iDownerGo下载扩展程序",
+		"description": "The product name"
+	},
+	"appDescription": {
+		"message": "一键下载 YouTube 视频、音频与缩略图，无需复制链接。",
+		"description": "Extension description"
+	},
+	"installDialogTitle": {
+		"message": "未安装桌面应用",
+		"description": "Install dialog: heading shown when desktop app is not found"
+	},
+	"installDialogDesc": {
+		"message": "请安装桌面应用程序以开始下载。",
+		"description": "Install dialog: body text prompting user to install desktop app"
+	},
+	"installDialogDownloadBtn": {
+		"message": "下载安装程序",
+		"description": "Install dialog: download button label"
+	},
+	"installDialogCloseBtn": {
+		"message": "取消",
+		"description": "Install dialog: close button label"
+	}
+}

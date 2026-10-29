@@ -1,0 +1,26 @@
+{
+	"appName": {
+		"message": "Tiện ích mở rộng tải xuống video iDownerGo",
+		"description": "The product name"
+	},
+	"appDescription": {
+		"message": "Tải xuống video, âm thanh và ảnh thu nhỏ trên YouTube chỉ với 1 lần nhấp, không cần sao chép liên kết.",
+		"description": "Extension description"
+	},
+	"installDialogTitle": {
+		"message": "Ứng dụng máy tính chưa được cài đặt",
+		"description": "Install dialog: heading shown when desktop app is not found"
+	},
+	"installDialogDesc": {
+		"message": "Vui lòng cài đặt ứng dụng máy tính để bắt đầu tải xuống.",
+		"description": "Install dialog: body text prompting user to install desktop app"
+	},
+	"installDialogDownloadBtn": {
+		"message": "Tải xuống trình cài đặt",
+		"description": "Install dialog: download button label"
+	},
+	"installDialogCloseBtn": {
+		"message": "Hủy",
+		"description": "Install dialog: close button label"
+	}
+}

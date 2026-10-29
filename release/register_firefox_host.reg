@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Register Native Messaging Host for iDownerGo Firefox Extension
+[HKEY_CURRENT_USER\Software\Mozilla\NativeMessagingHosts\com.idownergo.bridge]
+@="D:\\Workspace\\idownergo_fx\\idownergo\\native_host_manifest.json"

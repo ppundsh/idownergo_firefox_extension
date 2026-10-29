@@ -1,0 +1,26 @@
+{
+	"appName": {
+		"message": "iDownerGo वीडियो डाउनलोडर एक्सटेंशन",
+		"description": "The product name"
+	},
+	"appDescription": {
+		"message": "YouTube वीडियो, ऑडियो और थंबनेल को 1-क्लिक में डाउनलोड करें, लिंक कॉपी करने की आवश्यकता नहीं है।",
+		"description": "Extension description"
+	},
+	"installDialogTitle": {
+		"message": "डेस्कटॉप ऐप इंस्टॉल नहीं है",
+		"description": "Install dialog: heading shown when desktop app is not found"
+	},
+	"installDialogDesc": {
+		"message": "डाउनलोड शुरू करने के लिए कृपया डेस्कटॉप ऐप इंस्टॉल करें।",
+		"description": "Install dialog: body text prompting user to install desktop app"
+	},
+	"installDialogDownloadBtn": {
+		"message": "इंस्टॉलर डाउनलोड करें",
+		"description": "Install dialog: download button label"
+	},
+	"installDialogCloseBtn": {
+		"message": "रद्द करें",
+		"description": "Install dialog: close button label"
+	}
+}
