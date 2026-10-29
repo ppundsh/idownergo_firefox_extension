@@ -1,0 +1,58 @@
+{
+    "manifest_version": 3,
+    "name": "__MSG_appName__",
+    "description": "__MSG_appDescription__",
+    "default_locale": "en",
+    "version": "1.0.0",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "idownergo-unofficial@community-bridge",
+            "strict_min_version": "109.0",
+            "update_url": "https://raw.githubusercontent.com/ppundsh/idownergo_firefox_extension/main/updates.json",
+            "data_collection_permissions": {
+                "required": [
+                    "none"
+                ]
+            }
+        }
+    },
+    "permissions": [
+        "nativeMessaging",
+        "activeTab"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'none'; base-uri 'none';"
+    },
+    "icons": {
+        "16": "logo_16.png",
+        "32": "logo_32.png",
+        "48": "logo_48.png"
+    },
+    "action": {
+        "default_title": "__MSG_appName__",
+        "default_icon": {
+            "16": "logo_16.png",
+            "32": "logo_32.png",
+            "48": "logo_48.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.youtube.com/*"
+            ],
+            "js": [
+                "config.js",
+                "common.js",
+                "youtube.js"
+            ],
+            "all_frames": false,
+            "run_at": "document_idle"
+        }
+    ]
+}
