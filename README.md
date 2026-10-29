@@ -94,5 +94,6 @@ To package the extension into an `.xpi` file compatible with Mozilla Add-on deve
 
 ```powershell
 cd idownergo\download-extension
-tar -a -c -f ..\..\release\idownergo-firefox.xpi *
+tar -a -c -f ..\..\release\idownergo-firefox.zip *
+Move-Item -Force ..\..\release\idownergo-firefox.zip ..\..\release\idownergo-firefox.xpi
 ```
